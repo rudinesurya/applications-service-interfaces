@@ -1,5 +1,3 @@
-import { Document } from 'mongoose';
-
-export interface IApplicationUpdate extends Document {
+export interface IApplicationUpdate {
     cover_letter: string;
 }
